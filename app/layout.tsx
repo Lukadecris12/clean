@@ -9,19 +9,19 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://cleanconnectproducts.online"),
-  title: "CLEAN CONNECT | Digital Products & Administrative Solutions",
+  title: "CLEAN CONNECT | Administrative & Business Support Services",
   description:
-    "Official corporate portal of CLEAN CONNECT (BN 8897831). Delivering high-reliability digital product engineering, enterprise software operations, and structured administrative management.",
+    "Official corporate portal of CLEAN CONNECT (CAC BN 8897831). Providing structured office administration, compliance liaison, documentation management, and digital business support services in Abuja, Nigeria.",
   keywords: [
     "CLEAN CONNECT",
-    "Digital Products",
-    "Administrative Solutions",
-    "Software Development Nigeria",
-    "Abuja IT Services",
+    "Administrative Services Nigeria",
+    "Business Support Services Abuja",
+    "Office Administration",
+    "Corporate Liaison Services",
     "Corporate Affairs Commission Registered",
     "BN 8897831",
-    "Web Application Development",
-    "Enterprise Cloud Operations",
+    "Documentation Management",
+    "Digital Operations Support",
   ],
   authors: [{ name: "CLEAN CONNECT" }],
   creator: "CLEAN CONNECT",
@@ -31,9 +31,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   openGraph: {
-    title: "CLEAN CONNECT | Digital Products & Administrative Solutions",
+    title: "CLEAN CONNECT | Administrative & Business Support Services",
     description:
-      "Official corporate portal of CLEAN CONNECT (BN 8897831). Enterprise digital product engineering, cloud software operations, and corporate administrative services.",
+      "Official corporate portal of CLEAN CONNECT (CAC BN 8897831). Dependable office administration, operational coordination, documentation management, and digital business support in Abuja, Nigeria.",
     url: "https://cleanconnectproducts.online",
     siteName: "CLEAN CONNECT",
     locale: "en_US",

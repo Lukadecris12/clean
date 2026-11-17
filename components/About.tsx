@@ -1,12 +1,8 @@
 import {
   ShieldCheck,
-  Award,
-  CheckCircle,
   FileCheck,
   Scale,
   Building,
-  Target,
-  Sparkles,
 } from "lucide-react";
 
 export default function About() {
@@ -14,25 +10,25 @@ export default function About() {
     {
       title: "Regulatory Compliance & Rigor",
       description:
-        "Fully registered under Nigerian business law (CAC BN 8897831) and adhering strictly to national and international compliance benchmarks.",
+        "Duly registered under Nigerian business law (CAC BN 8897831) and adhering strictly to national administrative and statutory benchmarks.",
       icon: Scale,
     },
     {
-      title: "Engineering Resilience",
+      title: "Operational Reliability",
       description:
-        "Building digital applications on proven, enterprise-grade cloud architectures with fault tolerance, data security, and verifiable performance.",
+        "Delivering consistent day-to-day office management, records governance, and dependable administrative continuity for partner organizations.",
       icon: ShieldCheck,
     },
     {
       title: "Structured Administration",
       description:
-        "Providing institutional-grade documentation, operational oversight, and governance continuity across all client engagements.",
+        "Providing institutional-grade documentation, operational oversight, and workflow coordination across all client engagements.",
       icon: FileCheck,
     },
     {
       title: "Transparent Accountability",
       description:
-        "Clear service-level agreements, transparent corporate records, and dependable support channels for global partners and regulatory auditors.",
+        "Clear service-level agreements, accurate corporate records, and dependable support channels for partners and regulatory bodies.",
       icon: Building,
     },
   ];
@@ -48,29 +44,30 @@ export default function About() {
             </div>
 
             <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight leading-tight">
-              Corporate Governance, Reliability, and Digital Excellence
+              Corporate Governance, Reliability, and Administrative Excellence
             </h2>
 
             <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-              <strong>CLEAN CONNECT</strong> is a duly incorporated Nigerian enterprise
-              committed to bridging modern digital software engineering with
-              rigorous corporate administrative management.
+              <strong>CLEAN CONNECT</strong> is a duly registered Nigerian business
+              enterprise (BN 8897831) committed to delivering structured
+              administrative operations, compliance liaison, and practical digital
+              business support.
             </p>
 
             <p className="text-sm sm:text-base text-slate-600 leading-relaxed">
               Operating from the Federal Capital Territory, Abuja, our organization
-              designs, develops, and manages high-performance digital platforms
-              while providing institutional clients with structured operational
-              support. We prioritize statutory compliance, operational transparency,
-              and verifiable business integrity at every tier of our operations.
+              supports businesses and institutions with office administration,
+              statutory documentation management, and coordinated business
+              operations. We prioritize regulatory compliance, operational
+              transparency, and verifiable business integrity across every engagement.
             </p>
 
             {/* Quick Stats / Highlights */}
             <div className="grid grid-cols-2 gap-4 pt-4">
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">
-                <div className="text-2xl font-black text-slate-950">100%</div>
+                <div className="text-2xl font-black text-slate-950">BN 8897831</div>
                 <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mt-1">
-                  CAC Compliance Verified
+                  CAC Registered Business Name
                 </div>
               </div>
               <div className="p-4 rounded-xl bg-white border border-slate-200 shadow-sm">

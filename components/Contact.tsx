@@ -56,8 +56,8 @@ export default function Contact() {
             Contact CLEAN CONNECT
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Reach our corporate office for enterprise digital engineering,
-            administrative partnerships, or institutional verification inquiries.
+            Reach our corporate office for office administration, compliance
+            liaison, business support partnerships, or registration inquiries.
           </p>
         </div>
 
@@ -251,7 +251,7 @@ export default function Contact() {
                       onChange={(e) =>
                         setFormData({ ...formData, subject: e.target.value })
                       }
-                      placeholder="Digital Product Development / Administrative Partnership"
+                      placeholder="Office Administration / Compliance & Business Support Inquiry"
                       className="w-full px-4 py-3 rounded-xl border border-slate-300 bg-slate-50/50 text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500 focus:bg-white transition-all"
                     />
                   </div>

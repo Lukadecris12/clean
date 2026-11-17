@@ -176,13 +176,12 @@ export default function LegalModals({ activeModal, onClose }: LegalModalsProps) 
                   2. Scope of Services
                 </h4>
                 <p>
-                  CLEAN CONNECT provides web and mobile application
-                  development, digital product operations, and structured
-                  administrative and business support services. Specific
-                  project deliverables, timelines, and service-level agreements
-                  are governed by formal written contracts executed between
-                  CLEAN CONNECT and respective enterprise or institutional
-                  clients.
+                  CLEAN CONNECT provides office administration and business
+                  support, compliance and corporate liaison services, and
+                  digital operations and IT support. Specific service
+                  deliverables, timelines, and service-level agreements are
+                  governed by formal written contracts executed between CLEAN
+                  CONNECT and respective clients.
                 </p>
               </section>
 
@@ -191,23 +190,22 @@ export default function LegalModals({ activeModal, onClose }: LegalModalsProps) 
                   3. Intellectual Property
                 </h4>
                 <p>
-                  All corporate trademarks, wordmarks, software architectures,
-                  documentation, and content published on this website remain
-                  the exclusive intellectual property of CLEAN CONNECT unless
-                  otherwise stated in writing.
+                  All corporate trademarks, wordmarks, documentation, and
+                  content published on this website remain the exclusive
+                  intellectual property of CLEAN CONNECT unless otherwise stated
+                  in writing.
                 </p>
               </section>
 
               <section className="space-y-2">
                 <h4 className="font-bold text-slate-900 text-base">
-                  4. Institutional Verification Accuracy
+                  4. Corporate Registration Accuracy
                 </h4>
                 <p>
                   The Corporate Profile details published on this site reflect
                   accurate, current registration records filed with the
-                  Corporate Affairs Commission (CAC) of Nigeria for purposes of
-                  commercial due diligence, Dun & Bradstreet (D&B) listing, and
-                  Apple Developer Program verification.
+                  Corporate Affairs Commission (CAC) of Nigeria for commercial
+                  due diligence and partner verification.
                 </p>
               </section>
 

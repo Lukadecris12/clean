@@ -28,9 +28,9 @@ export default function Footer() {
                 </div>
               </div>
               <p className="text-xs sm:text-sm text-slate-400 leading-relaxed max-w-md">
-                Designing, engineering, and operating reliable consumer and
-                enterprise digital platforms alongside structured corporate
-                administrative support services.
+                Providing dependable office administration, compliance liaison,
+                documentation management, and digital business support services
+                across Nigeria.
               </p>
               <div className="inline-flex items-center gap-2 text-xs font-medium text-emerald-400 bg-emerald-950/60 border border-emerald-900 px-3 py-1.5 rounded-lg">
                 <ShieldCheck className="w-4 h-4" />

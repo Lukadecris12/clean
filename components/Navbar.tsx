@@ -50,7 +50,7 @@ export default function Navbar() {
                 CLEAN CONNECT
               </span>
               <span className="text-[10px] uppercase tracking-wider text-slate-500 font-semibold">
-                RC / BN 8897831 • CAC Verified
+                BN 8897831 • CAC Registered
               </span>
             </div>
           </Link>

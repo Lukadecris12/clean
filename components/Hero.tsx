@@ -1,13 +1,9 @@
-import Link from "next/link";
 import {
   ArrowRight,
   ShieldCheck,
   CheckCircle2,
-  Terminal,
-  Server,
-  Layers,
-  Sparkles,
-  ExternalLink,
+  ClipboardList,
+  FileCheck2,
   Building2,
 } from "lucide-react";
 
@@ -30,18 +26,18 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-950 tracking-tight leading-[1.12]">
-            Building Reliable{" "}
+            Structured{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-blue-900 to-emerald-700">
-              Digital Products
+              Administrative
             </span>{" "}
-            & Administrative Solutions
+            & Business Support Solutions
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg sm:text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
-            CLEAN CONNECT designs, develops, and operates consumer and
-            enterprise web and mobile applications alongside structured
-            administrative support services.
+            CLEAN CONNECT provides dependable office administration, operational
+            coordination, documentation management, and digital business support
+            services for organizations across Nigeria.
           </p>
 
           {/* CTA Buttons */}
@@ -66,25 +62,25 @@ export default function Hero() {
             <div className="p-3.5 rounded-xl bg-white border border-slate-200/70 shadow-sm">
               <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 flex-shrink-0" />
-                <span>Verified Entity</span>
+                <span>Registered Enterprise</span>
               </div>
-              <p className="text-xs text-slate-500 mt-1">CAC Registry: BN 8897831</p>
+              <p className="text-xs text-slate-500 mt-1">CAC BN 8897831</p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-white border border-slate-200/70 shadow-sm">
               <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                <ShieldCheck className="w-4 h-4 text-blue-600 flex-shrink-0" />
-                <span>Apple & D&B Ready</span>
+                <ClipboardList className="w-4 h-4 text-blue-600 flex-shrink-0" />
+                <span>Administrative Focus</span>
               </div>
-              <p className="text-xs text-slate-500 mt-1">Verified Corporate Identity</p>
+              <p className="text-xs text-slate-500 mt-1">Office & Operations Support</p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-white border border-slate-200/70 shadow-sm">
               <div className="flex items-center gap-2 text-slate-900 font-bold text-sm">
-                <Server className="w-4 h-4 text-indigo-600 flex-shrink-0" />
-                <span>Cloud Resilient</span>
+                <FileCheck2 className="w-4 h-4 text-indigo-600 flex-shrink-0" />
+                <span>Compliance Driven</span>
               </div>
-              <p className="text-xs text-slate-500 mt-1">Enterprise Architecture</p>
+              <p className="text-xs text-slate-500 mt-1">Statutory Record Keeping</p>
             </div>
 
             <div className="p-3.5 rounded-xl bg-white border border-slate-200/70 shadow-sm">

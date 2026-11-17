@@ -13,7 +13,6 @@ import {
   ShieldCheck,
   ExternalLink,
   Briefcase,
-  Calendar,
   Lock,
 } from "lucide-react";
 
@@ -83,7 +82,7 @@ export default function CorporateProfile() {
     {
       label: "Core Operations Scope",
       value:
-        "Digital product development, software solutions, and administrative support services.",
+        "Administrative and support service activities, office management, corporate documentation, and business operations support.",
       copyable: false,
       key: "operations",
       icon: Briefcase,
@@ -103,8 +102,8 @@ export default function CorporateProfile() {
             Institutional Corporate Profile
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Public verification data for Dun & Bradstreet (D&B), Apple Developer
-            Program compliance, institutional partners, and statutory authorities.
+            Public registration details for institutional partners, clients, and
+            statutory due diligence inquiries.
           </p>
         </div>
 
@@ -131,7 +130,7 @@ export default function CorporateProfile() {
 
             <div className="flex items-center gap-2 text-xs font-medium text-slate-300 bg-slate-900 px-3 py-1.5 rounded-lg border border-slate-800">
               <Lock className="w-3.5 h-3.5 text-emerald-400" />
-              <span>D&B & Apple Developer Verification Ready</span>
+              <span>Verified CAC Business Record</span>
             </div>
           </div>
 
@@ -195,12 +194,12 @@ export default function CorporateProfile() {
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400" />
               <span>
-                Record verified against the CAC Registry database. Entity status:{" "}
+                Registered with the Corporate Affairs Commission (CAC), Federal Republic of Nigeria. Status:{" "}
                 <strong className="text-white">Active</strong>.
               </span>
             </div>
             <a
-              href="mailto:admin@cleanconnectproducts.online?subject=Verification%20Inquiry%20-%20CLEAN%20CONNECT%20(BN%208897831)"
+              href="mailto:admin@cleanconnectproducts.online?subject=Corporate%20Verification%20Inquiry"
               className="text-emerald-400 hover:text-emerald-300 font-semibold inline-flex items-center gap-1 transition-colors"
             >
               Request Formal Registry Transcript

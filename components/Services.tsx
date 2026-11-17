@@ -1,64 +1,60 @@
 import {
-  Code2,
-  Cpu,
-  ClipboardCheck,
   CheckCircle2,
   ArrowUpRight,
-  Layers,
-  Smartphone,
-  CloudCog,
+  ClipboardCheck,
   FileCheck2,
+  MonitorCog,
 } from "lucide-react";
 
 export default function Services() {
   const services = [
     {
-      id: "app-development",
-      title: "Web & Mobile Application Development",
+      id: "office-administration",
+      title: "Office Administration & Business Support",
       description:
-        "End-to-end architecture, development, and deployment of scalable digital platforms.",
-      icon: Smartphone,
-      accentBg: "bg-blue-50 text-blue-600 border-blue-200",
-      pillBg: "bg-blue-100/60 text-blue-800",
-      capabilities: [
-        "Native & Cross-Platform Mobile Applications (iOS & Android)",
-        "Enterprise Next.js & React Web Platforms",
-        "Microservices Architecture & RESTful/GraphQL APIs",
-        "Strict Security Standards & Performance Optimization",
-      ],
-      tag: "Engineering & Architecture",
-    },
-    {
-      id: "product-operations",
-      title: "Digital Product Operations",
-      description:
-        "Cloud infrastructure management, verification workflows, and ongoing software maintenance.",
-      icon: CloudCog,
+        "Comprehensive day-to-day administrative operations, executive scheduling, and organizational support.",
+      icon: ClipboardCheck,
       accentBg: "bg-emerald-50 text-emerald-600 border-emerald-200",
       pillBg: "bg-emerald-100/60 text-emerald-800",
       capabilities: [
-        "High-Availability Cloud Infrastructure & CI/CD Pipelines",
-        "Apple Developer & Institutional Verification Workflows",
-        "24/7 Monitoring, Patch Management & Security Audits",
-        "Data Integrity, Database Backups & Disaster Recovery",
+        "Office Administration & Front-Desk Operations",
+        "Corporate Documentation, Filing & Records Management",
+        "Vendor, Facility & Logistics Coordination",
+        "Standard Operating Procedures (SOP) & Workflow Support",
       ],
-      tag: "Infrastructure & Verification",
+      tag: "Primary Operations",
     },
     {
-      id: "admin-support",
-      title: "Administrative & Business Support",
+      id: "compliance-liaison",
+      title: "Compliance & Corporate Liaison Services",
       description:
-        "Structured operational support, documentation management, and enterprise coordination.",
+        "Structured regulatory filing support, institutional correspondence, and statutory record maintenance.",
       icon: FileCheck2,
+      accentBg: "bg-blue-50 text-blue-600 border-blue-200",
+      pillBg: "bg-blue-100/60 text-blue-800",
+      capabilities: [
+        "Statutory Documentation & Registry Record Keeping",
+        "Institutional & Partner Correspondence Management",
+        "Contract Administration & Compliance Tracking",
+        "Procurement & Operational Reporting",
+      ],
+      tag: "Corporate Liaison",
+    },
+    {
+      id: "digital-operations",
+      title: "Digital Operations & IT Support",
+      description:
+        "Practical digital tools, workspace administration, and web presence management to streamline business operations.",
+      icon: MonitorCog,
       accentBg: "bg-slate-100 text-slate-800 border-slate-300",
       pillBg: "bg-slate-200/70 text-slate-800",
       capabilities: [
-        "Corporate Registry Compliance & Statutory Documentation",
-        "Institutional Vendor & Partner Relationship Coordination",
-        "Standard Operating Procedures (SOP) & Policy Design",
-        "Enterprise Records, Document Archival & SLA Monitoring",
+        "Business Workspace & Email Administration",
+        "Web Presence & Digital Communications Management",
+        "Process Digitization & Data Organization",
+        "Routine Technical & Systems Support",
       ],
-      tag: "Enterprise Governance",
+      tag: "Digital Support",
     },
   ];
 
@@ -70,11 +66,12 @@ export default function Services() {
             Core Capabilities
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-slate-950 tracking-tight">
-            Specialized Digital & Operational Services
+            Administrative & Business Support Services
           </h2>
           <p className="mt-4 text-base sm:text-lg text-slate-600 leading-relaxed">
-            Delivering robust technological execution and disciplined corporate
-            operations designed to meet rigorous institutional standards.
+            Delivering disciplined office administration, regulatory liaison,
+            and practical digital support tailored to Nigerian enterprises and
+            institutions.
           </p>
         </div>
 
